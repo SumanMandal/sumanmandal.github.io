@@ -130,6 +130,25 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+@media (max-width: 600px) {
+  section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.mb-5, .my-5 {
+    margin-bottom: .5rem!important;
+}
+
+}
+.img-profile2 {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.6rem solid rgba(255, 255, 255, 0.2);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .bg-primary {
   background-color: #BD5D38 !important;
 }
